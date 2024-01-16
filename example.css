@@ -1,0 +1,61 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-window {
+    height: auto;
+    width: 500px;
+    background-color: lightgrey;
+    border-radius: 0.5em;
+}
+
+.app-header {
+    width: 100%;
+    height: 2em;
+    background-color: gray;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    box-sizing: border-box;
+    padding: 0.5em;
+    color: white;
+}
+
+.app-main, .app-footer {
+    display: grid;
+    box-sizing: border-box;
+    padding: 0.5em;
+    gap: 0.5em;
+}
+
+.field-title {
+    grid-column: 1 / 3;
+}
+
+.text-box {
+    grid-column: 1 / 3;
+    width: 100%;
+    height: 2em;
+    background-color: white;
+}
+
+.data-box {
+    padding: 0.5em;
+    color: grey;
+    grid-column: 1 / 3;
+    height: auto;
+    background-color: white;    
+}
+
+.app-button {
+    grid-column: 3 / 4;
+    background-color: grey;  
+    text-align: center;  
+    color: white
+}
+
+.generate-button {
+    background-color: grey;  
+    text-align: center;  
+    color: white;
+    height: 2em;
+}
